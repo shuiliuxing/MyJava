@@ -24,6 +24,8 @@ public class Solution {
             preNode.val=stack.pop();
             preNode=preNode.next;
         }
+
+
         return head;
     }
 }
